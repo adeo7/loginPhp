@@ -11,11 +11,11 @@
     <h1>Inicio de seccion</h1>
   <div class="row ">
   <label for="exampleFormControlInput1" class="form-label">Usuario</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="brayan mosquera">
+  <input type="email" class="form-control" id="usuario" placeholder="brayan mosquera">
 </div>
 <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Contraseña</label>
-  <input type="password" class="form-control">
+  <input type="password" id="password" class="form-control">
   <a class="btn btn-primary m-2">Iniciar</a>
   <a href="recuperar.php" class="text-center text-success">olvide mi contraseña</a>
 </div>
